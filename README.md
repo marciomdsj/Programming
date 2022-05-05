@@ -48,3 +48,40 @@
 - Para linkar algo de uma mesma página, basta criar outra pasta no digitalizador e aderi-la: "<a href="nomedapasta.html" target="_blank"  .>  .... </a .>
 
 - Colocar uma class na tag link pode ser uma boa indicação para estilizar, um dos exeplos é: .Link:hover fará a característica ser ativada apenas quando o mouse estiver em cima, ou .Link:visited, fará ficar marcado quando for acessado;
+
+- Para tirar a estilização de um link, porém, quando o mouse está em cima, ficar sublinhado, faz-se: a { text-decorantion:none } a:hover { text-decoration:underline }
+
+- Dentro do CSS, o "text-transform" pode ser uppercase --> tudo em capslock; lowercase --> minúsculo; letter-spacing: espaçamento entre letras; words-spacing --> entre palavras; line-height --> altura da linha; text-shadow: x px y px z px # color --> distância da sombra direita, bottom, espaço da sombra e sua cor;
+
+- Para criação de tabelas se usa o "table", dentro dele, o "thead", que dentro desse o "th" para definir os títulos das linhas; Após o fechamento do thead, usa-se o tbody e, após ele, o tr e dentro de cada coluna o td
+
+- O tr é a criação de uma coluna; o td é a criação de uma linha; th cria títulos
+
+- imput possibilita a criação de uma caixa de digitação, pode ser type text, submit, password, email, date, checkbox, radio etc;
+
+- A tag form é usada para indicar separação entre os códigos;
+
+- Para enviar um formulário, o usuário clica no button escrito "enviar", então, a página que abrirá em seguida é determinada pela tag form action="nomedapasta/nomedafolha.hmtl" method="GET" > 
+
+- Label funciona como um tipo de título para o input;
+
+- Fieldset cria um espaço para o texto e pode ser estilizado, vem em conjunto com a tag Legend, que atua com a borda formada. Separa e organiza os inputs de um formulário por blocos;
+
+- Adicionar required aos inputs farão serem obrigatórios para o seguimento da página;
+
+- required minlenght="2" fará que o mínimo obrigatorio e ter 2 letras no campo. Maxlenght é o contrario;
+
+- Dentro do input number, colocar step="3" só permitira os multiplos de 3;
+
+- Caso o formulário precise mandar arquivos, o form precisa ser mudado: form action="nomedapasta/nomedafolha.html" method="POST" enctype="multipart/form-data" >
+
+- A tag source media "(min-width:650px)" srcset="img.jpg" /> faz com que caso a largura do dispositivo seja 650, essa imagem será transmitida normalmente;
+
+- Para resolução de imagens, usa-se os object-fit, que podem ser:
+
+  - fill --> Redimenciona a imagem para que ela caiba no espaço especificado, mas pode distorcer;
+  - contain --> Diminui a imagem ao máximo dentro das especificações para que ela não tenha distorções;
+  - cover --> Mantém o espaço destinado, mas corta a imagem para que não tenha distorções;
+  - none --> Apenas corta a imagem para caber no espaço destinado;
+
+  
