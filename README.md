@@ -84,4 +84,6 @@
   - cover --> Mantém o espaço destinado, mas corta a imagem para que não tenha distorções;
   - none --> Apenas corta a imagem para caber no espaço destinado;
 
-  
+ - Para criar um degradê em uma Div, basta escrever primeiro a proteção caso o navegador não suportar: background:blue por exemplo; background:linear-gradient (white, blue); E estará pronto o degradê;
+ - As proteções para navegadores são: -moz-background:linear-gradient (white, blue); -o-background:linear-gradient (white, blue); -webkit-background:linear-gradient (white, blue);
+ - Placeholder: criará um texto que serve de exemplo ao usuário. Usado nos inputs.
